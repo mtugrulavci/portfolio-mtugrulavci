@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    /* more on this crazy alphanumerical value in a minute! */
+    color: #39a6b2;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+header {
+    background: #515F73;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+    padding: 30px 30px 30px 0;
+    /*
+    background-image:  url("../images/coding.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 50%; */
+}
+header a{
+    font-weight: bold;
+    text-decoration: none;
+    color:#F0BE2F;
+}
+header h1 {   
+    background: #F0BE2F;
+    padding: 10px;
+    width: 30%;
+    border-radius: 0 15px 15px 0;
+    font-size: 48px;
+}
+header h1 a {
+    color: #515F73;
+}
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 35px;
+    list-style: none;
+}
+header nav ul li {
+    margin: 5px;
+}
+header nav ul li a {
+    padding: 10px 30px;
+    font-size: 24px;
+    border-bottom: solid 5px #F0BE2F;
+}
+header nav ul li a:hover{
+    background:#F0BE2F;
+    color:#515F73 ;
+    border-radius: 20px;
+}
+.hero {
+    background-image:  url("../images/coding.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+    position: 80%;
+    background-attachment: fixed;
+    position: relative;
+
+}
+.hero p {
+    font-size: 30px;
+    font-weight: bold;
+    color:white;
+    position: sticky;
+    background-color: green;
+    top: 400px;
+    left: 1000px;
+    height: 80px;
+    width: 350px;
+    text-align: center;
+    padding-top: 20px;
+}
