@@ -91,26 +91,27 @@ header nav ul li a:hover{
     text-align: center;
     padding-top: 20px;
 }
-h3 {
+p {
     text-align: center;
      padding-top: 160px;
 
+
 }
 .container {
-    height: 100%;
+    height: 100vh;
     width: 90%;
     margin: 30px auto;
     display: grid;
     grid-gap: 20px;
 
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(5,1fr);
     grid-template-rows: repeat(7,200px) ;
     grid-template-areas: 
-    "a d d d d"
-    "w s s s s"
-    "w s s s s"
-    "w l l c c"
-    "w p p r r"
+    "aboutme desc desc desc desc"
+    "work surf surf surf surf"
+    "work surf surf surf surf"
+    "work surf1 surf1 surf2 surf2"
+    "work surf3 surf3 surf4 surf4"
     "t u o z e"
 
 }
@@ -129,34 +130,80 @@ h3 {
 
 }
 .aboutme{
-    grid-area: a;
+    grid-area: aboutme;
+    border-right: solid black 5px;
 }
 .desc{
-    grid-area: d;
+    grid-area: desc;
 
-    text-align: end;
+    text-align: start;
 }
 .work {
-    grid-area: w;
+    grid-area: work;
+    border-right: solid black 5px;
 }
 .surf {
-    grid-area: s;
+    grid-area: surf;
+    background-size:cover;
+    background-position: center;
+    height: 200px;
+    border: solid rgba(32, 59, 32,0.6) 5px ;
+    opacity: 60%;
+    background-image: url('../images/run-buddy.png');
+}
+.surf span {
+    text-align: start;
+    background: #08a04b;
 
+
+}
+.surf:hover {
+    grid-area: surf;
+    background-size:cover;
+    background-position: center;
+    height: 200px;
+    border: solid rgba(32, 59, 32,0.6) 5px ;
+    opacity: 1;
+    background-image: url('../images/run-buddy.png');
 }
 .surf1{
-    grid-area: l;
-
+    grid-area: surf1;
+    background-size:cover;
+    background-position: center;
+    height: 200px;
+    border: solid rgba(32, 59, 32,0.6) 5px ;
+    opacity: 60%;
+    background-image: url('../images/run-buddy.png');
+}
+.surf1:hover{
+    grid-area: surf1;
+    background-size:cover;
+    background-position: center;
+    height: 200px;
+    border: solid rgba(32, 59, 32,0.6) 5px ;
+    opacity: 1;
+    background-image: url('../images/run-buddy.png');
 }
 .surf2{
-    grid-area: c;
-
+    grid-area: surf2;
+    background-size:cover;
+    background-position: center;
+    height: 200px;
+    border: solid rgba(32, 59, 32,0.6) 5px ;
+    opacity: 60%;
+    background-image: url('../images/run-buddy.png');
+}
+.surf2:hover{
+    grid-area: surf2;
+    background-size:cover;
+    background-position: center;
+    height: 200px;
+    border: solid rgba(32, 59, 32,0.6) 5px ;
+    opacity: 1;
+    background-image: url('../images/run-buddy.png');
 }
 .surf3 {
-    grid-area: p;
-
-}
-.surf4 {
-    grid-area: r;
+    grid-area: surf3;
     background-size:cover;
     background-position: center;
     height: 200px;
@@ -164,17 +211,34 @@ h3 {
     opacity: 60%;
     background-image: url('../images/run-buddy.png');
 
-
 }
-.surf4:hover {
-    grid-area: r;
+.surf3:hover {
+    grid-area: surf3;
     background-size:cover;
     background-position: center;
     height: 200px;
-    border: solid rgba(32, 59, 32,1) 5px ;
+    border: solid rgba(32, 59, 32,0.6) 5px ;
     opacity: 1;
     background-image: url('../images/run-buddy.png');
 
+}
+.surf4 {
+    grid-area: surf4;
+    background-size:cover;
+    background-position: center;
+    height: 200px;
+    border: solid rgba(32, 59, 32,0.6) 5px ;
+    opacity: 60%;
+    background-image: url('../images/run-buddy.png');
+}
+.surf4:hover {
+    grid-area: surf4;
+    background-size:cover;
+    background-position: center;
+    height: 200px;
+    border: solid rgba(32, 59, 32,0.6) 5px ;
+    opacity: 1;
+    background-image: url('../images/run-buddy.png');
 }
 
 .contact {
@@ -182,24 +246,65 @@ h3 {
 }
 .contact1 {
     grid-area: u;
-    border-bottom:solid black 3px;
     
 }
 .contact2 {
     grid-area: o; 
-    border-bottom:solid black 3px;
+
 
 }
 .contact3{
     grid-area: z;
-    border-bottom:solid black 3px;
 
+
+}
+.contact4 {
+    grid-area: e;
 }
 .contact4 a{
-    grid-area: e;
+    padding-bottom: 10px;
+    padding-top: 160px;
     border-bottom:solid black 2px;
-
-
-
 }
-
+ /*MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER*/
+ @media screen and (max-width:980px) {
+    header h1 {   
+        background: var(--yellow);
+        padding: 22px;
+        width: 40%;
+        border-radius: 0 15px 15px 0;
+        font-size: 30px;
+    }
+    header nav ul li a {
+        padding: 10px 30px;
+        font-size: 12px;
+        border-bottom: solid 5px var(--yellow);
+    }
+    .hero p{
+        font-size: 20px;
+    }
+    .container {
+        height: 100vh;
+        width: 90%;
+        margin: 30px auto;
+        display: grid;
+        grid-gap: 20px;
+    
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(9,200px) ;
+        grid-template-areas: 
+        "aboutme"
+        "desc "
+        "work"
+        "surf "
+        "surf1"
+        "surf2"
+        "surf3"
+        "surf4"
+        "t"
+        "u"
+        "o"
+        "z"
+        "e"  
+    }
+ }
