@@ -14,63 +14,58 @@ body {
 }
 
 header {
-  background: var(--green);
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   text-align: left;
-  padding: 30px 30px 30px 0;
-  background-image: url("../images/coding.jpg");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  background: var(--white);
   z-index: 9999;
 }
 header a {
   font-weight: bold;
   text-decoration: none;
-  color: var(--white);
+  color: var(--green);
 }
 header h1 {
-  background: var(--white);
-  padding-top: 15px;
-  width: 30%;
+  padding-top: 40px;
+  width: 25%;
   border-radius: 0 15px 15px 0;
-  font-size: 40px;
+  font-size: 30px;
+  text-align: center;
 }
-
 header h1 a {
   color: var(--green);
-  padding: 20px;
 }
 header div img {
   display: flex;
   flex-wrap: wrap;
   border-radius: 50%;
   border: solid var(--white) 6px;
-  height: 100px;
+  height: 120px;
 }
 header nav ul {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  padding-top: 35px;
   padding-top: 5px;
   list-style: none;
 }
 header nav ul li {
-  margin: 20px;
+  margin: 10px;
+  padding: 20px 0 5px 0;
 }
 header nav ul li a {
   padding: 10px 30px;
   font-size: 20px;
-  border-bottom: solid 5px var(--white);
+  border-bottom: solid 5px var(--green);
 }
 header nav ul li a:hover {
-  background: var(--white);
-  color: var(--green);
+  background: var(--green);
+  color: var(--white);
   border-radius: 20px;
 }
 .hero {
@@ -295,7 +290,7 @@ div span {
   header nav ul li a {
     padding: 10px 30px;
     font-size: 26px;
-    border-bottom: solid 5px var(--white);
+    border-bottom: solid 5px var(--green);
   }
   .hero p {
     font-size: 20px;
@@ -350,7 +345,7 @@ div span {
   header nav ul li a {
     padding: 10px 30px;
     font-size: 12px;
-    border-bottom: solid 5px var(--white);
+    border-bottom: solid 5px var(--green);
   }
   .hero p {
     font-size: 20px;
