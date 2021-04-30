@@ -295,7 +295,7 @@ div span {
 .desc p {
   color: var(--blackish);
   font-weight: bold;
-  font-size: 13px;
+  font-size: 12px;
   text-align: justify;
 }
 /* contact info */
@@ -463,7 +463,7 @@ div span {
   }
   header nav ul li a {
     padding: 10px 30px;
-    font-size: 12px;
+    font-size: 11px;
     border-bottom: solid 5px var(--blackish);
   }
   .hero p {
@@ -518,7 +518,7 @@ div span {
   .desc p {
     color: var(--blackish);
     font-weight: bold;
-    font-size: 12px;
+    font-size: 11px;
     text-align: justify;
   }
 
@@ -558,7 +558,7 @@ div span {
   .desc p {
     color: var(--blackish);
     font-weight: bold;
-    font-size: 10px;
+    font-size: 11px;
     text-align: justify;
   }
 
