@@ -367,6 +367,7 @@ div span {
     border-radius: 0 15px 15px 0;
     font-size: 40px;
   }
+
   header nav ul li a {
     padding: 10px 30px;
     font-size: 26px;
@@ -425,10 +426,9 @@ div span {
     font-weight: bold;
     font-size: 13px;
     text-align: justify;
-    padding: 0 30px;
   }
   .work h2 {
-    padding-bottom: 10px;
+    padding-top: 30px;
     border-bottom: solid var(--blackish) 3px;
     width: 20%;
     margin: auto;
@@ -509,7 +509,7 @@ div span {
   .aboutme h2 {
     padding-bottom: 10px;
     border-bottom: solid var(--blackish) 3px;
-    width: 50%;
+    width: 40%;
     margin: auto;
   }
   .work {
@@ -524,9 +524,9 @@ div span {
   }
 
   .work h2 {
-    padding-bottom: 10px;
+    padding-top: 100px;
     border-bottom: solid var(--blackish) 3px;
-    width: 50%;
+    width: 40%;
     margin: auto;
   }
   .contact {
@@ -536,7 +536,7 @@ div span {
   .contact h2 {
     padding-bottom: 10px;
     border-bottom: solid var(--blackish) 3px;
-    width: 60%;
+    width: 40%;
     margin: auto;
   }
   .contact3 a {
@@ -562,13 +562,22 @@ div span {
     font-size: 11px;
     text-align: justify;
   }
+  .aboutme h2 {
+    padding-bottom: 10px;
+    border-bottom: solid var(--blackish) 3px;
+    width: 60%;
+    margin: auto;
+  }
 
   .hero p {
-    padding-top: 20px;
+    padding-top: 30px;
     font-size: 7px;
   }
   i {
     font-size: 6px;
+  }
+  .contact h2 {
+    width: 60%;
   }
 
   div span {
