@@ -1,7 +1,5 @@
 # portfolio-mtugrulavci
 
-# portfolio-mtugrulavci
-
 ## Introduction
 
 Project's aim is to make a personal portfolio page.
