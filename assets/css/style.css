@@ -374,10 +374,10 @@ div span {
   }
   .hero p {
     padding-top: 10px;
-    font-size: 16px;
+    font-size: 12px;
   }
   i {
-    font-size: 10px;
+    font-size: 8px;
   }
 
   .container {
@@ -468,12 +468,12 @@ div span {
   }
   .hero p {
     padding: 10px;
-    font-size: 12px;
+    font-size: 10px;
     text-align: justify;
   }
   i {
     padding-left: 20px;
-    font-size: 10px;
+    font-size: 8px;
   }
   .container {
     height: 100vh;
@@ -564,10 +564,10 @@ div span {
 
   .hero p {
     padding-top: 20px;
-    font-size: 10px;
+    font-size: 8px;
   }
   i {
-    font-size: 8px;
+    font-size: 6px;
   }
 
   div span {
