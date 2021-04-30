@@ -337,7 +337,7 @@ div span {
   padding-top: 45px;
   width: 30%;
   position: absolute;
-  left: 250px;
+  left: 130px;
 }
 .contact4 {
   grid-area: e;
@@ -348,7 +348,7 @@ div span {
   position: absolute;
   margin: auto;
   padding-top: 65px;
-  left: 250px;
+  left: 130px;
 }
 /*footer starts here*/
 .footer {
@@ -533,7 +533,7 @@ div span {
     width: 15%;
   }
 }
-/*MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER- 980*/
+/*MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER- 600*/
 @media screen and (max-width: 600px) {
   header nav ul li a {
     padding: 10px 5px;
