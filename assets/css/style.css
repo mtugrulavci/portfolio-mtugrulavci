@@ -97,7 +97,7 @@ header nav ul li a:hover {
   top: 400px;
   left: 800px;
   height: 180px;
-  width: 900px;
+  width: 1000px;
   text-align: center;
   padding-top: 20px;
   font-family: monospace;
@@ -152,8 +152,8 @@ i {
   grid-area: work-1;
   background-size: cover;
   background-position: center;
-  width: 97.5%;
-  height: 97.5%;
+  width: 100%;
+  height: 100%;
   border: solid rgba(27, 29, 27, 0.6) 5px;
   opacity: 0.6;
   border-radius: 15px;
@@ -197,8 +197,8 @@ div span {
   grid-area: work-2;
   background-size: cover;
   background-position: center;
-  width: 95%;
-  height: 95%;
+  width: 100%;
+  height: 100%;
   border: solid rgba(27, 29, 27, 0.6) 5px;
   opacity: 0.6;
   border-radius: 15px;
@@ -221,8 +221,8 @@ div span {
   grid-area: work-3;
   background-size: cover;
   background-position: center;
-  width: 95%;
-  height: 95%;
+  width: 100%;
+  height: 100%;
   border: solid rgba(27, 29, 27, 0.6) 5px;
   opacity: 0.6;
   border-radius: 15px;
@@ -244,8 +244,8 @@ div span {
   grid-area: work-4;
   background-size: cover;
   background-position: center;
-  width: 95%;
-  height: 95%;
+  width: 100%;
+  height: 100%;
   border: solid rgba(27, 29, 27, 0.6) 5px;
   opacity: 0.6;
   border-radius: 15px;
@@ -267,8 +267,8 @@ div span {
   grid-area: work-5;
   background-size: cover;
   background-position: center;
-  width: 95%;
-  height: 95%;
+  width: 100%;
+  height: 100%;
   border: solid rgba(27, 29, 27, 0.6) 5px;
   opacity: 0.6;
   border-radius: 15px;
@@ -333,22 +333,22 @@ div span {
   grid-area: z;
   position: relative;
 }
-.contact3 div {
+.contact3 a {
   padding-top: 45px;
   width: 30%;
   position: absolute;
-  padding-left: 20px;
+  left: 250px;
 }
 .contact4 {
   grid-area: e;
   position: relative;
 }
-.contact4 div {
+.contact4 a {
   width: 30%;
   position: absolute;
   margin: auto;
   padding-top: 65px;
-  padding-left: 20px;
+  left: 250px;
 }
 /*footer starts here*/
 .footer {
@@ -375,7 +375,6 @@ div span {
   .hero p {
     padding-top: 10px;
     font-size: 16px;
-    text-align: left;
   }
   i {
     font-size: 10px;
@@ -383,7 +382,7 @@ div span {
 
   .container {
     height: 100vh;
-    width: 80%;
+    width: 90%;
     margin: 30px auto;
     display: grid;
     grid-gap: 20px;
@@ -437,6 +436,15 @@ div span {
     width: 35%;
     margin: auto;
   }
+  .contact3 a {
+    left: 400px;
+    width: 15%;
+  }
+
+  .contact4 a {
+    left: 400px;
+    width: 15%;
+  }
 }
 /*MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER- 980*/
 @media screen and (max-width: 980px) {
@@ -455,14 +463,13 @@ div span {
   .hero p {
     padding: 10px;
     font-size: 12px;
-    text-align: left;
   }
   i {
     font-size: 10px;
   }
   .container {
     height: 100vh;
-    width: 80%;
+    width: 90%;
     margin: 30px auto;
     display: grid;
     grid-gap: 20px;
@@ -516,6 +523,15 @@ div span {
     width: 60%;
     margin: auto;
   }
+  .contact3 a {
+    left: 300px;
+    width: 15%;
+  }
+
+  .contact4 a {
+    left: 300px;
+    width: 15%;
+  }
 }
 /*MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER- 980*/
 @media screen and (max-width: 600px) {
@@ -541,5 +557,12 @@ div span {
   }
   div span {
     font-size: 10px;
+  }
+  .contact3 a {
+    left: 130px;
+  }
+
+  .contact4 a {
+    left: 130px;
   }
 }
