@@ -425,6 +425,7 @@ div span {
     font-weight: bold;
     font-size: 13px;
     text-align: justify;
+    padding: 0 30px;
   }
   .work h2 {
     padding-bottom: 10px;
