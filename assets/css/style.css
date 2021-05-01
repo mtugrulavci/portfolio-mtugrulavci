@@ -379,11 +379,11 @@ div span {
     border-bottom: solid 5px var(--blackish);
   }
   .hero p {
-    padding-top: 10px;
-    font-size: 10px;
+    padding-top: 30px;
+    font-size: 16px;
   }
   i {
-    font-size: 8px;
+    font-size: 12px;
   }
 
   .container {
@@ -473,13 +473,12 @@ div span {
     border-bottom: solid 5px var(--blackish);
   }
   .hero p {
-    padding: 10px;
-    font-size: 8px;
-    text-align: justify;
+    padding: 30px;
+    font-size: 14px;
   }
   i {
     padding-left: 20px;
-    font-size: 7px;
+    font-size: 10px;
   }
   .container {
     height: 100vh;
@@ -576,10 +575,10 @@ div span {
 
   .hero p {
     padding-top: 30px;
-    font-size: 7px;
+    font-size: 10px;
   }
   i {
-    font-size: 6px;
+    font-size: 8px;
   }
   .contact h2 {
     width: 60%;
