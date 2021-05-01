@@ -360,6 +360,11 @@ div span {
 }
 /*MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER- 1024*/
 @media screen and (max-width: 1024px) {
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+  }
   header h1 {
     background: var(--white);
     padding: 20px;
