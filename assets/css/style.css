@@ -449,12 +449,12 @@ div span {
     margin: auto;
   }
   .contact3 a {
-    left: 400px;
+    left: 420px;
     width: 15%;
   }
 
   .contact4 a {
-    left: 400px;
+    left: 420px;
     width: 15%;
   }
 }
@@ -528,7 +528,7 @@ div span {
   }
 
   .work h2 {
-    padding-top: 100px;
+    padding-top: 140px;
     border-bottom: solid var(--blackish) 3px;
     width: 40%;
     margin: auto;
@@ -544,12 +544,14 @@ div span {
     margin: auto;
   }
   .contact3 a {
-    left: 300px;
+    left: 260px;
+
     width: 15%;
   }
 
   .contact4 a {
-    left: 300px;
+    left: 260px;
+
     width: 15%;
   }
 }
@@ -588,10 +590,10 @@ div span {
     font-size: 10px;
   }
   .contact3 a {
-    left: 140px;
+    left: 120px;
   }
 
   .contact4 a {
-    left: 140px;
+    left: 120px;
   }
 }
