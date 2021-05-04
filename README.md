@@ -12,4 +12,4 @@ Html and CSS languages are applied in the projects
 
 - Flex box is used on header section and CSS Grid is used on the main content. The page is resposnive and mobile friendly.
 
-  ![website Image](./images/pageImage.png)
+  ![website Image](./assets/images/pageImage.png)
